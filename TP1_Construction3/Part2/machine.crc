@@ -1,0 +1,42 @@
+﻿  MODEL MACHINE :
+ 
+
+  2 CIRCULAR REFERENCE LOOPS FOUND
+ 
+
+   LOOP #  1
+
+   Depth of loop is 4
+
+Feature number 20 (COMPONENT, id = 454) 
+  in model MACHINE refers to:
+
+Feature number 8 (EXTRUDE_2, id = 536) 
+  in model PISTON refers to:
+
+Feature number 6 (COPY GEOMETRY, id = 498) 
+  in model PISTON refers to:
+
+Feature number 20 (COMPONENT, id = 454) 
+  in model MACHINE - circle closed.
+
+
+   LOOP #  2
+
+   Depth of loop is 5
+
+Feature number 20 (COMPONENT, id = 454) 
+  in model MACHINE refers to:
+
+Feature number 10 (DATUM AXIS, id = 566) 
+  in model PISTON must follow after:
+
+Feature number 8 (EXTRUDE_2, id = 536) 
+  in model PISTON refers to:
+
+Feature number 6 (COPY GEOMETRY, id = 498) 
+  in model PISTON refers to:
+
+Feature number 20 (COMPONENT, id = 454) 
+  in model MACHINE - circle closed.
+
