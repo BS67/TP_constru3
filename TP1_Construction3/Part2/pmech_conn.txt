@@ -4,11 +4,15 @@
 The following position constraints can't be satisfied:
 
 
-1) The rigid body body1 connected by Connection_32 in model MACHINE can't be
+1) The rigid body body6 connected by Connection_44 in model MACHINE can't be
 properly oriented. 
 
 
-2) The following kinematic loop can't be closed: Ground - body1 - body5 -
-Ground.
+2) The following kinematic loop can't be closed: Ground - body2 - body6 - body5
+- Ground.
+
+
+3) The following kinematic loop can't be closed: Ground - body2 - body6 - body4
+- body3 - Ground.
 
 

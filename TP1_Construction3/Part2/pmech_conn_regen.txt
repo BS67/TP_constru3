@@ -1,0 +1,22 @@
+       Error Diagnostics for Analysis/Assembly Failure
+
+  All position constraints can't be simultaneously satisfied. 
+The following position constraints can't be satisfied:
+
+
+1) The rigid body body1 connected by Connection_20 in model MACHINE can't be
+properly oriented. 
+
+
+2) The following kinematic loop can't be closed: Ground - body3 - body1 - body2
+- Ground.
+
+
+3) The following kinematic loop can't be closed: Ground - body3 - body7 - body6
+- Ground.
+
+
+4) The following kinematic loop can't be closed: Ground - body3 - body7 - body5
+- body4 - Ground.
+
+
