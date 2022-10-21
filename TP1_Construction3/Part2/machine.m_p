@@ -1,0 +1,68 @@
+﻿MASS PROPERTIES OF THE ASSEMBLY MACHINE
+
+VOLUME =  8.5698337e+06  MM^3
+SURFACE AREA =  8.8245556e+05  MM^2
+AVERAGE DENSITY =  7.8290000e-18 TONNE / MM^3
+MASS =  6.7093228e-11 TONNE 
+CENTER OF GRAVITY with respect to ASM_ACS0 coordinate frame:
+X   Y   Z    -5.9167473e+01  4.2350710e+01  1.3451766e+01  MM
+
+INERTIA with respect to ASM_ACS0 coordinate frame:  (TONNE * MM^2)
+
+INERTIA TENSOR:
+Ixx Ixy Ixz  5.7034736e-07  3.6020521e-07  9.3973629e-08
+Iyx Iyy Iyz  3.6020521e-07  2.6204091e-06 -8.1080219e-08
+Izx Izy Izz  9.3973629e-08 -8.1080219e-08  2.9097360e-06
+
+INERTIA at CENTER OF GRAVITY with respect to ASM_ACS0 coordinate frame:  (TONNE * MM^2)
+
+INERTIA TENSOR:
+Ixx Ixy Ixz  4.3786959e-07  1.9208404e-07  4.0573661e-08
+Iyx Iyy Iyz  1.9208404e-07  2.3733893e-06 -4.2857755e-08
+Izx Izy Izz  4.0573661e-08 -4.2857755e-08  2.5545194e-06
+
+PRINCIPAL MOMENTS OF INERTIA:  (TONNE * MM^2)
+I1  I2  I3   4.1806083e-07  2.3835659e-06  2.5641515e-06
+
+ROTATION MATRIX from ASM_ACS0 orientation to PRINCIPAL AXES:
+       0.99495        0.10038       -0.00130
+      -0.09820        0.97044       -0.22045
+      -0.02086        0.21946        0.97540
+
+ROTATION ANGLES from ASM_ACS0 orientation to PRINCIPAL AXES (degrees):
+angles about x  y  z  12.735         -0.075         -5.761 
+
+RADII OF GYRATION with respect to PRINCIPAL AXES:
+R1  R2  R3 0.0000000e+00  0.0000000e+00  0.0000000e+00  MM
+
+---------------------------------------------
+
+MASS PROPERTIES OF COMPONENTS OF THE ASSEMBLY
+(in assembly units and the ASM_ACS0 coordinate frame)
+
+   DENSITY             MASS          C.G.:  X        Y         Z
+
+                           SOCLE            MATERIAL:                              UNKNOWN
+         7.82900e-18  6.15398e-11 -6.48408e+01  3.67109e+01  1.18836e+01
+                   AXE_MANIVELLE            MATERIAL:                             FR_ACIER
+         7.82900e-18  4.42720e-14  9.61000e+01  1.50000e+01  4.60000e+01
+                       MANIVELLE            MATERIAL:                             FR_ACIER
+         7.82900e-18  2.55283e-13  8.42067e+01  9.58254e+01  4.50000e+01
+                            ROUE            MATERIAL:                             FR_ACIER
+         7.82900e-18  9.28328e-13  2.60140e+02  8.16558e+01  4.51076e+01
+                        AXE_ROUE            MATERIAL:                             FR_ACIER
+         7.82900e-18  2.94470e-14  2.50594e+02  3.69941e+01  5.15000e+01
+                          BIELLE            MATERIAL:                             FR_ACIER
+         7.82900e-18  2.21343e-13  1.68491e+02  5.89970e+01  5.70000e+01
+                 TIGE_PISTON_BAS            MATERIAL:                             FR_ACIER
+         7.82900e-18  8.53792e-13  3.25184e+01  8.10000e+01  2.41101e+01
+                TIGE_PISTON_HAUT            MATERIAL:                             FR_ACIER
+         7.82900e-18  9.49715e-13  6.58268e+00  1.47000e+02  2.42000e+01
+             AXE_TIGE_PISTON_BAS            MATERIAL:                             FR_ACIER
+         7.82900e-18  5.11894e-14  8.63882e+01  8.10000e+01  4.25000e+01
+            AXE_TIGE_PISTON_HAUT            MATERIAL:                             FR_ACIER
+         7.82900e-18  3.59710e-14  7.66764e+01  1.47000e+02  3.70000e+01
+                          PISTON            MATERIAL:                             FR_ACIER
+         7.82900e-18  1.09204e-12 -1.76621e+02  1.47000e+02  2.50000e+01
+                          PISTON            MATERIAL:                             FR_ACIER
+         7.82900e-18  1.09204e-12 -1.27909e+02  8.10000e+01  2.50000e+01
