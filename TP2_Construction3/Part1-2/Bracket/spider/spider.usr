@@ -1,0 +1,23 @@
+#PID -1Id 111
+#ErrProAddr 2 11030 80 0 -1 
+#ErrProAddr 2 11030 79 0 -1 
+#ErrProAddr 2 11030 78 0 -1 
+#ErrProAddr 2 11030 77 0 -1 
+#PID 10796
+#ErrMsgId 89
+#ErrMsgStr
+Starting analysis spider
+#ErrMsgEnd
+#ErrMsgId 90
+#ErrMsgStr
+Starting solution pass 1 - spider
+#ErrMsgEnd
+#ErrMsgId 90
+#ErrMsgStr
+Starting solution pass 2 - spider
+#ErrMsgEnd
+#ErrMsgId 91
+#ErrMsgStr
+Analysis spider completed
+#ErrMsgEnd
+#ErrMsgId 92

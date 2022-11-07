@@ -1,0 +1,183 @@
+------------------------------------------------------------
+Creo Simulate Structure Version P-80-44:spg
+Summary for Design Study "Bar"
+Mon Nov  7, 2022   14:47:12
+------------------------------------------------------------
+
+Run Settings
+   Memory allocation for block solver: 512.0     
+
+Parallel Processing Status
+   Parallel task limit for current run:           12
+   Parallel task limit for current platform:      64
+   Number of processors detected automatically:   12
+
+Checking the model before creating elements...
+These checks take into account the fact that AutoGEM will
+automatically create elements in volumes with material
+properties, on surfaces with shell properties, and on curves
+with beam section properties.
+   Generate elements automatically.
+Checking the model after creating elements...
+No errors were found in the model.
+Creo Simulate Structure Model Summary
+
+   Principal System of Units: millimeter Newton Second (mmNs)
+
+   Length:          mm
+   Force:           N
+   Time:            sec
+   Temperature:     C
+
+   Model Type: Three Dimensional
+
+   Points:                 15
+   Edges:                  50
+   Faces:                  60
+
+   Springs:                 0
+   Masses:                  0
+   Beams:                   0
+   Shells:                  0
+   Solids:                 24
+
+   Elements:               24
+
+------------------------------------------------------------
+
+Standard Design Study
+
+Static Analysis "Bar":
+
+   Convergence Method: Single-Pass Adaptive
+   Plotting Grid:      4
+
+   Convergence Loop Log:                         (14:47:12)
+
+   >> Pass  1 <<
+         Calculating Element Equations           (14:47:12)
+            Total Number of Equations:     450
+            Maximum Edge Order:              3
+         Solving Equations                       (14:47:12)
+         Post-Processing Solution                (14:47:12)
+         Checking Convergence                    (14:47:12)
+         Resource Check                          (14:47:12)
+            Elapsed Time     (sec):       0.18
+            CPU Time         (sec):       0.78
+            Memory Usage      (kb):     582971
+            Wrk Dir Dsk Usage (kb):          0
+
+   >> Pass  2 <<
+         Calculating Element Equations           (14:47:12)
+            Total Number of Equations:    1110
+            Maximum Edge Order:              5
+         Solving Equations                       (14:47:12)
+         Post-Processing Solution                (14:47:12)
+         Checking Convergence                    (14:47:12)
+         Calculating Disp and Stress Results     (14:47:12)
+
+         RMS Stress Error Estimates:
+
+         Load Set          Stress Error  % of Max Prin Str
+         ----------------  ------------  -----------------
+         LoadSet1           8.04e+00       1.9% of  4.33e+02
+
+         Resource Check                          (14:47:12)
+            Elapsed Time     (sec):       0.24
+            CPU Time         (sec):       0.95
+            Memory Usage      (kb):     608780
+            Wrk Dir Dsk Usage (kb):       1024
+
+   Total Mass of Model:  2.450442e-04
+
+   Total Cost of Model:  0.000000e+00
+
+   Mass Moments of Inertia about WCS Origin:
+
+     Ixx:   2.10330e-01
+     Ixy: -1.87093e-09  Iyy:   1.22522e-02
+     Ixz:   7.45060e-11  Iyz: -4.12721e-09  Izz:   2.10330e-01
+
+   Principal MMOI and Principal Axes Relative to WCS Origin:
+
+            Max Prin           Mid Prin           Min Prin
+            2.10330e-01         2.10330e-01         1.22522e-02
+
+   WCS X:   2.23891e-01         9.74614e-01         9.44546e-09
+   WCS Y: -2.24221e-08       -4.54060e-09         1.00000e+00
+   WCS Z:   9.74614e-01       -2.23891e-01         2.08363e-08
+
+   Center of Mass Location Relative to WCS Origin:
+                  (-2.61996e-07,   2.08847e-07,   4.70918e-09)
+
+   Mass Moments of Inertia about the Center of Mass:
+
+     Ixx:   2.10330e-01
+     Ixy: -1.87093e-09  Iyy:   1.22522e-02
+     Ixz:   7.45060e-11  Iyz: -4.12721e-09  Izz:   2.10330e-01
+
+   Principal MMOI and Principal Axes Relative to COM:
+
+            Max Prin           Mid Prin           Min Prin
+            2.10330e-01         2.10330e-01         1.22522e-02
+
+   WCS X:   2.23891e-01         9.74614e-01         9.44546e-09
+   WCS Y: -2.24221e-08       -4.54060e-09         1.00000e+00
+   WCS Z:   9.74614e-01       -2.23891e-01         2.08363e-08
+
+   Constraint Set: ConstraintSet1: BAR
+
+   Load Set: LoadSet1: BAR
+
+      Resultant Load on Model:
+         in global X direction:  6.684777e-11
+         in global Y direction: -1.000000e+05
+         in global Z direction: -5.072410e-11
+
+      Measures:
+
+      max_beam_bending:    0.000000e+00
+      max_beam_tensile:    0.000000e+00
+      max_beam_torsion:    0.000000e+00
+      max_beam_total:      0.000000e+00
+      max_disp_mag:        1.510002e-01
+      max_disp_x:          4.635093e-03
+      max_disp_y:        -1.509322e-01
+      max_disp_z:        -4.639392e-03
+      max_prin_mag:        4.329455e+02
+      max_rot_mag:         0.000000e+00
+      max_rot_x:           0.000000e+00
+      max_rot_y:           0.000000e+00
+      max_rot_z:           0.000000e+00
+      max_stress_prin:     4.329455e+02
+      max_stress_vm:       3.346137e+02
+      max_stress_xx:       1.803549e+02
+      max_stress_xy:     -1.004565e+02
+      max_stress_xz:     -8.999533e+00
+      max_stress_yy:       3.945494e+02
+      max_stress_yz:       8.396738e+01
+      max_stress_zz:       1.690795e+02
+      min_stress_prin:   -2.805425e+01
+      strain_energy:       7.544475e+03
+
+Analysis "Bar" Completed  (14:47:12)
+
+------------------------------------------------------------
+
+Memory and Disk Usage:
+
+   Machine Type: Windows 64 
+   RAM Allocation for Solver (megabytes): 512.0
+
+   Total Elapsed Time (seconds): 0.25      
+   Total CPU Time     (seconds): 0.95      
+   Maximum Memory Usage (kilobytes): 608780    
+   Working Directory Disk Usage (kilobytes): 1024      
+
+   Results Directory Size (kilobytes):
+   877 .\Bar
+
+------------------------------------------------------------
+Run Completed
+Mon Nov  7, 2022   14:47:12
+------------------------------------------------------------

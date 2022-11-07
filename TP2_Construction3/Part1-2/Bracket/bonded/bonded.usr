@@ -1,0 +1,18 @@
+#PID -112
+#ErrMsgId 89
+#ErrMsgStr
+Starting analysis bonded
+#ErrMsgEnd
+#ErrMsgId 90
+#ErrMsgStr
+Starting solution pass 1 - bonded
+#ErrMsgEnd
+#ErrMsgId 90
+#ErrMsgStr
+Starting solution pass 2 - bonded
+#ErrMsgEnd
+#ErrMsgId 91
+#ErrMsgStr
+Analysis bonded completed
+#ErrMsgEnd
+#ErrMsgId 92

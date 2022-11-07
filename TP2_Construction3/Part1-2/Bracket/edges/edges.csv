@@ -1,0 +1,25 @@
+
+Analysis:edges, Loadset:LoadSet1
+max_beam_bending, 0
+max_beam_tensile, 0
+max_beam_torsion, 0
+max_beam_total, 0
+max_disp_mag, 0.0147383, -10, 17.151, 95.7974
+max_disp_x, 0.00125919, 32.2205, -75, 0
+max_disp_y, -0.0144103, -10, 9.30657, 90.6569
+max_disp_z, 0.00719554, -5, 75, 60
+max_prin_mag, -237.105, 39.4493, -52.7183, 0
+max_rot_mag, 0, -21.7491, -75, 17.733
+max_rot_x, 0, 8.49214, -16.9026, 65.2949
+max_rot_y, 0, 8.49214, -16.9026, 65.2949
+max_rot_z, 0, 8.49214, -16.9026, 65.2949
+max_stress_prin, 178.329, 40.1351, 51.4882, 0
+max_stress_vm, 181.727, 39.4493, -52.7183, 0
+max_stress_xx, -116.23, 39.4493, -52.7183, 0
+max_stress_xy, 48.3021, 39.4493, -52.7183, 0
+max_stress_xz, -67.514, -39.336, -53.0185, 0
+max_stress_yy, -159.833, -44.9877, -48.9999, 0
+max_stress_yz, -77.7644, 42.5149, -49.5373, 0
+max_stress_zz, -127.587, -39.336, -53.0185, 0
+min_stress_prin, -237.105, 39.4493, -52.7183, 0
+strain_energy, 54.3873

@@ -1,0 +1,196 @@
+------------------------------------------------------------
+Creo Simulate Structure Version P-80-44:spg
+Summary for Design Study "test"
+Mon Nov  7, 2022   17:33:27
+------------------------------------------------------------
+
+Run Settings
+   Memory allocation for block solver: 512.0     
+
+Parallel Processing Status
+   Parallel task limit for current run:           12
+   Parallel task limit for current platform:      64
+   Number of processors detected automatically:   12
+
+Checking the model before creating elements...
+These checks take into account the fact that AutoGEM will
+automatically create elements in volumes with material
+properties, on surfaces with shell properties, and on curves
+with beam section properties.
+   Generate elements automatically.
+Checking the model after creating elements...
+No errors were found in the model.
+Creo Simulate Structure Model Summary
+
+   Principal System of Units: millimeter Newton Second (mmNs)
+
+   Length:          mm
+   Force:           N
+   Time:            sec
+   Temperature:     C
+
+   Model Type: Three Dimensional
+
+   Points:                239
+   Edges:                 915
+   Faces:                1110
+
+   Springs:                 0
+   Masses:                  0
+   Beams:                   0
+   Shells:                  0
+   Solids:                436
+
+   Elements:              436
+
+------------------------------------------------------------
+
+Standard Design Study
+
+Static Analysis "test":
+
+   Convergence Method: Single-Pass Adaptive
+   Plotting Grid:      4
+
+   Convergence Loop Log:                         (17:33:27)
+
+   >> Pass  1 <<
+         Calculating Element Equations           (17:33:27)
+            Total Number of Equations:    8874
+            Maximum Edge Order:              3
+         Solving Equations                       (17:33:27)
+         Post-Processing Solution                (17:33:27)
+         Checking Convergence                    (17:33:27)
+         Resource Check                          (17:33:27)
+            Elapsed Time     (sec):       0.58
+            CPU Time         (sec):       1.33
+            Memory Usage      (kb):     596200
+            Wrk Dir Dsk Usage (kb):       7168
+
+   >> Pass  2 <<
+         Calculating Element Equations           (17:33:27)
+            Total Number of Equations:   17025
+            Maximum Edge Order:              7
+         Solving Equations                       (17:33:27)
+         Post-Processing Solution                (17:33:28)
+         Checking Convergence                    (17:33:28)
+         Calculating Disp and Stress Results     (17:33:28)
+
+** Warning:
+
+            The yield condition has been exceeded for the material(s) listed
+            below.  You should consider using an elasto-plastic
+            material, if applicable.
+PLA
+
+         RMS Stress Error Estimates:
+
+         Load Set          Stress Error  % of Max Prin Str
+         ----------------  ------------  -----------------
+         LoadSet1           3.82e+00       2.7% of  1.39e+02
+
+         Resource Check                          (17:33:28)
+            Elapsed Time     (sec):       1.20
+            CPU Time         (sec):       2.02
+            Memory Usage      (kb):     634172
+            Wrk Dir Dsk Usage (kb):      22528
+
+   Total Mass of Model:  3.204851e-06
+
+   Total Cost of Model:  0.000000e+00
+
+   Mass Moments of Inertia about WCS Origin:
+
+     Ixx:   1.88153e-03
+     Ixy: -1.62376e-10  Iyy:   4.47122e-04
+     Ixz:   4.76110e-11  Iyz: -9.78981e-05  Izz:   2.13898e-03
+
+   Principal MMOI and Principal Axes Relative to WCS Origin:
+
+            Max Prin           Mid Prin           Min Prin
+            2.14462e-03         1.88153e-03         4.41476e-04
+
+   WCS X:   2.16203e-07         1.00000e+00         1.10666e-07
+   WCS Y: -5.75763e-02       -9.80341e-08         9.98341e-01
+   WCS Z:   9.98341e-01       -2.22216e-07         5.75763e-02
+
+   Center of Mass Location Relative to WCS Origin:
+                  (  1.03637e-05, -1.01645e+01, -3.27736e+00)
+
+   Mass Moments of Inertia about the Center of Mass:
+
+     Ixx:   1.51599e-03
+     Ixy: -4.99980e-10  Iyy:   4.12699e-04
+     Ixz: -6.12439e-11  Iyz:   8.86416e-06  Izz:   1.80786e-03
+
+   Principal MMOI and Principal Axes Relative to COM:
+
+            Max Prin           Mid Prin           Min Prin
+            1.80792e-03         1.51599e-03         4.12642e-04
+
+   WCS X: -2.20670e-07         1.00000e+00         4.52785e-07
+   WCS Y:   6.35311e-03       -4.51374e-07         9.99980e-01
+   WCS Z:   9.99980e-01         2.23542e-07       -6.35311e-03
+
+   Constraint Set: ConstraintSet1: VERSION3
+
+   Load Set: LoadSet1: VERSION3
+
+      Resultant Load on Model:
+         in global X direction: -1.191678e-10
+         in global Y direction: -5.200000e+01
+         in global Z direction: -5.963436e-11
+
+      Measures:
+
+      max_beam_bending:    0.000000e+00
+      max_beam_tensile:    0.000000e+00
+      max_beam_torsion:    0.000000e+00
+      max_beam_total:      0.000000e+00
+      max_disp_mag:        7.457936e+00
+      max_disp_x:        -6.785072e+00
+      max_disp_y:        -3.095061e+00
+      max_disp_z:          1.126083e+00
+      max_prin_mag*:     -1.388885e+02
+      max_rot_mag:         0.000000e+00
+      max_rot_x:           0.000000e+00
+      max_rot_y:           0.000000e+00
+      max_rot_z:           0.000000e+00
+      max_stress_prin:     7.716245e+01
+      max_stress_vm*:      1.216716e+02
+      max_stress_xx:     -6.244283e+01
+      max_stress_xy:       3.614808e+01
+      max_stress_xz*:      2.314349e+01
+      max_stress_yy*:    -9.451754e+01
+      max_stress_yz*:    -4.989156e+01
+      max_stress_zz*:    -4.414827e+01
+      min_stress_prin*:  -1.388885e+02
+      strain_energy:       6.118139e+01
+      deplacement_basse:   9.299543e-01
+
+   ** Warning: The measures marked by an asterisk (*) were evaluated 
+   at (or close to) results singularities. The values of these  
+   measures may be inaccurate, and you must use engineering judgment 
+   when interpreting them.
+
+Analysis "test" Completed  (17:33:28)
+
+------------------------------------------------------------
+
+Memory and Disk Usage:
+
+   Machine Type: Windows 64 
+   RAM Allocation for Solver (megabytes): 512.0
+
+   Total Elapsed Time (seconds): 1.21      
+   Total CPU Time     (seconds): 2.03      
+   Maximum Memory Usage (kilobytes): 634172    
+   Working Directory Disk Usage (kilobytes): 22528     
+
+   Results Directory Size (kilobytes):
+   5965 .\test
+
+------------------------------------------------------------
+Run Completed
+Mon Nov  7, 2022   17:33:28
+------------------------------------------------------------

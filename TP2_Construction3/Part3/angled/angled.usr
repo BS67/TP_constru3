@@ -1,0 +1,46 @@
+#PID -1Id 97
+#ErrMsgStr
+A total of 0 elements and 68 nodes were created.
+#ErrMsgEnd
+#PID 15236
+#ErrMsgId 89
+#ErrMsgStr
+Starting analysis angled
+#ErrMsgEnd
+#ErrMsgId 90
+#ErrMsgStr
+Starting solution pass 1 - angled
+#ErrMsgEnd
+#ErrMsgId 90
+#ErrMsgStr
+Starting solution pass 2 - angled
+#ErrMsgEnd
+#ErrMsgId 545616691
+#ErrMsgStr
+
+            The rotations are large during this analysis, which may lead
+            to inaccurate results.
+
+#ErrMsgEnd
+#ErrMsgId 545616693
+#ErrMsgStr
+
+            The strains are large during this analysis, which may lead to
+            inaccurate results. You should consider using the Calculate
+            Large Deformations option, if applicable.
+
+#ErrMsgEnd
+#ErrMsgId 661
+#ErrProAddr 2 17001 865 0 -1 
+#ErrMsgId 545616195
+#ErrMsgStr
+** Warning: Local reaction data is currently unavailable if
+            one or more constraints are specified in
+            curvilinear or local Cartesian coordinates.
+
+#ErrMsgEnd
+#ErrMsgId 91
+#ErrMsgStr
+Analysis angled completed
+#ErrMsgEnd
+#ErrMsgId 92

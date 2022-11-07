@@ -1,0 +1,39 @@
+#PID -1Id 97
+#ErrMsgStr
+A total of 75 elements and 68 nodes were created.
+#ErrMsgEnd
+#PID 8920
+#ErrMsgId 89
+#ErrMsgStr
+Starting analysis leg2
+#ErrMsgEnd
+#ErrMsgId 90
+#ErrMsgStr
+Starting solution pass 1 - leg2
+#ErrMsgEnd
+#ErrMsgId 90
+#ErrMsgStr
+Starting solution pass 2 - leg2
+#ErrMsgEnd
+#ErrMsgId 545616691
+#ErrMsgStr
+
+            The rotations are large during this analysis, which may lead
+            to inaccurate results.
+
+#ErrMsgEnd
+#ErrMsgId 545616693
+#ErrMsgStr
+
+            The strains are large during this analysis, which may lead to
+            inaccurate results. You should consider using the Calculate
+            Large Deformations option, if applicable.
+
+#ErrMsgEnd
+#ErrMsgId 661
+#ErrProAddr 2 17001 865 0 -1 
+#ErrMsgId 91
+#ErrMsgStr
+Analysis leg2 completed
+#ErrMsgEnd
+#ErrMsgId 92

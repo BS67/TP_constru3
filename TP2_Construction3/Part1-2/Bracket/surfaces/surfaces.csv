@@ -1,0 +1,25 @@
+
+Analysis:surfaces, Loadset:LoadSet1
+max_beam_bending, 0
+max_beam_tensile, 0
+max_beam_torsion, 0
+max_beam_total, 0
+max_disp_mag, 0.0110213, -10, 9.30657, 90.6569
+max_disp_x, 0.00104805, -27.1751, 75, 0
+max_disp_y, -0.0106899, -10, 9.30657, 90.6569
+max_disp_z, 0.00520638, -5, 75, 60
+max_prin_mag, 39.1949, -39.2437, -56.6935, 20
+max_rot_mag, 0, -21.7491, -75, 17.733
+max_rot_x, 0, 8.49214, -16.9026, 65.2949
+max_rot_y, 0, 8.49214, -16.9026, 65.2949
+max_rot_z, 0, 8.49214, -16.9026, 65.2949
+max_stress_prin, 39.1949, -39.2437, -56.6935, 20
+max_stress_vm, 35.7201, -0.0323741, 17.2399, 50.8692
+max_stress_xx, 31.6474, 39.4003, 57.1574, 0
+max_stress_xy, -13.3821, 44.2696, 60.9554, 0
+max_stress_xz, -9.87637, -39.2437, -56.6935, 20
+max_stress_yy, -22.889, 40.2633, 58.683, 20
+max_stress_yz, -18.7353, -5.32907e-15, 20.5448, 46.2375
+max_stress_zz, 21.0177, -4.99946, 15.7156, 54.7011
+min_stress_prin, -37.5546, 39.4493, -52.7183, 0
+strain_energy, 40.1626

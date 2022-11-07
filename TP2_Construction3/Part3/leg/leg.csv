@@ -1,0 +1,25 @@
+
+Analysis:leg, Loadset:LoadSet1
+max_beam_bending, 0
+max_beam_tensile, 0
+max_beam_torsion, 0
+max_beam_total, 0
+max_disp_mag, 110.994, 219.687, 15, -3.52236
+max_disp_x, 14.4952, 216, 15, 0
+max_disp_y, -38.7415, 208.783, 2.25, -17.9682
+max_disp_z, -105.613, 220, 15, 0
+max_prin_mag, 316.286, 20, -15, 0
+max_rot_mag, 0, 198.898, -11, -2.24393
+max_rot_x, 0, 105.167, 10.75, -19
+max_rot_y, 0, 105.167, 10.75, -19
+max_rot_z, 0, 105.167, 10.75, -19
+max_stress_prin, 316.286, 20, -15, 0
+max_stress_vm, 192.096, 21, -14, 0
+max_stress_xx, 304.587, 20, -15, 0
+max_stress_xy, 48.1191, 38.6877, 12.2048, -25.6361
+max_stress_xz, 64.1583, 16.1803, -15, -11.7557
+max_stress_yy, 148.069, 20, -15, 0
+max_stress_yz, -60.5832, 200.194, -11, -6.58014
+max_stress_zz, 151.716, 20, -15, 0
+min_stress_prin, -184.859, 16.1803, -15, -11.7557
+strain_energy, 6434.95

@@ -1,0 +1,25 @@
+
+Analysis:spider, Loadset:LoadSet1
+max_beam_bending, 8.20899, -45, -55, 0
+max_beam_tensile, -2.12538, 45, -55, 20
+max_beam_torsion, 0.0566623, -45, -55, 20
+max_beam_total, -10.1205, -45, -55, 0
+max_disp_mag, 0.0124775, -10, 9.30657, 90.6569
+max_disp_x, 0.000941858, 29.9376, -75, 0
+max_disp_y, -0.0121695, -10, 9.30657, 90.6569
+max_disp_z, 0.00600361, -10, 75, 60
+max_prin_mag, 92.627, -35.2145, 52.9399, 0
+max_rot_mag, 8.89824e-05, -45, 55, 0
+max_rot_x, 6.71139e-05, -45, 55, 10
+max_rot_y, 7.5017e-05, -45, -55, 0
+max_rot_z, -1.18567e-05, -45, -55, 0
+max_stress_prin, 92.627, -35.2145, 52.9399, 0
+max_stress_vm, 89.765, -35.2145, 52.9399, 0
+max_stress_xx, 63.3948, -35.0539, 53.963, 0
+max_stress_xy, -21.3784, -42.2575, -45.3834, 0
+max_stress_xz, 35.6784, -35.2145, 52.9399, 0
+max_stress_yy, 59.8009, 45.2361, 45.0022, 0
+max_stress_yz, -32.0643, 45.2361, 45.0022, 0
+max_stress_zz, 47.9833, -39.6098, 52.3646, 0
+min_stress_prin, -83.0109, -42.2575, -45.3834, 0
+strain_energy, 45.235
